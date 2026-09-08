@@ -5,7 +5,7 @@
 # or to provide custom queries or build logic.
 name: "CodeQL"
 
-# on:
+on:
 #   push:
 #     branches: [main, master]
 #   pull_request:
