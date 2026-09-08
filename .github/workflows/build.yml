@@ -47,16 +47,16 @@ jobs:
             package_ext: tar.xz
             output_name: QmClient-ubuntu.tar.xz
             artifact_name: packaged-linux
-          # - name: Windows
-          #   os: windows-2022
-          #   package_ext: zip
-          #   output_name: QmClient-windows.zip
-          #   artifact_name: packaged-windows
-          # - name: macOS
-          #   os: macos-26
-          #   package_ext: dmg
-          #   output_name: QmClient-macOS.dmg
-          #   artifact_name: packaged-macos
+          - name: Windows
+            os: windows-2022
+            package_ext: zip
+            output_name: QmClient-windows.zip
+            artifact_name: packaged-windows
+          - name: macOS
+            os: macos-26
+            package_ext: dmg
+            output_name: QmClient-macOS.dmg
+            artifact_name: packaged-macos
 
     steps:
       - name: Validate tag version
